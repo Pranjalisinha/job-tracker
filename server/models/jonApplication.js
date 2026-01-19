@@ -17,7 +17,7 @@ const jobApplicationSchema = new mongoose.Schema(
         },
         status:{
             type: String,
-            enum: ['applied', 'intervie', 'offer', 'rejected', 'cold'],
+            enum: ['applied', 'interview', 'offer', 'rejected', 'cold'],
             default: 'applied',
         },
         appliedDate:{
